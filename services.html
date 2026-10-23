@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riverbend Yoga Studio | Services</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -37,6 +38,18 @@
         <h2>Classes</h2>
         <p>
             We offer classes in gentle yoga, vinyasa, and restorative yoga.
+        </p>
+        <label for="class-choice">Choose a class to learn more:</label>
+
+        <select id="class-choice">
+            <option value="">Select a class</option>
+            <option value="gentle">Gentle Yoga</option>
+            <option value="vinyasa">Vinyasa</option>
+            <option value="restorative">Restorative Yoga</option>
+        </select>
+
+        <p id="class-description" aria-live="polite">
+            Select a class to see its description.
         </p>
         <figure>
             <img
